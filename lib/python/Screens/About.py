@@ -27,7 +27,7 @@ class About(Screen):
 		AboutText += _("Image: ") + about.getImageTypeString() + "\n"
 		AboutText += _("Kernel Version: ") + about.getKernelVersionString() + "\n"
 		
-		EnigmaVersion = "Enigma: " + about.getEnigmaVersionString() + " SIFTeam (based on openpli)"
+		EnigmaVersion = "Enigma: " + about.getEnigmaVersionString() + " SIFTeam (based on openpli For Sh4 Model)"
 		self["EnigmaVersion"] = StaticText(EnigmaVersion)
 		AboutText += EnigmaVersion + "\n"
 
