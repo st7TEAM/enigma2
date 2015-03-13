@@ -8,19 +8,10 @@ class AboutTeam(Screen):
 	def __init__(self, session, args = 0):
 		Screen.__init__(self, session)
 		
-		abouttxt = """Skaman (developer & coder)
-Ukiller_Bestia (web master and server maintainer)
-Genge (manager)
-Daconi (skinner)
-Ipbox2008 (coder)
-Dr_Gogeta86(fuzzy coder)
-Morpheus883(Settings Master Chief)
-Cus2k (betatester)
-Raskino (betatester)
-Theseven (betatester)
-Biondo79 (betatester)
-Katapip (katatester)
-Barrett (stuntman)"""
+		abouttxt = """ST7TEAM (developer & coder)
+For SH4 Box (sti 7111 & sti 7162)		
+pop_popazerty (betatester)
+Youssef El Arbi (betatester)"""
 		
 		self["about"] = Label(abouttxt)
 		self["key_green"] = Button("")
